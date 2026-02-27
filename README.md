@@ -137,3 +137,6 @@ Many text editors use plugins to provide support for certain programming languag
 
 ### Editing software
 Software for editing videos and images commonly comes with plugins to provide improved compatibility for certain file types.
+
+# Examples
+Examples of plug-in use for various categories of applications:
