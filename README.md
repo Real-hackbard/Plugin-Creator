@@ -152,5 +152,7 @@ Examples of plug-in use for various categories of applications:
 * [Text editors](https://en.wikipedia.org/wiki/Text_editor) and integrated development environments use plug-ins to support programming languages or enhance the development process, e.g., Visual Studio, RAD Studio, Eclipse, IntelliJ IDEA, jEdit and MonoDevelop support plug-ins. Visual Studio itself can be plugged into other applications via Visual Studio Tools for Office and Visual Studio Tools for Applications.
 * [Web browsers](https://en.wikipedia.org/wiki/Web_browser) have historically used executables as plug-ins, though they all are deprecated. Examples include the Adobe Flash Player, a Java virtual machine (for Java applets), QuickTime, Microsoft Silverlight and the Unity Web Player. (Browser extensions, which are a separate type of installable module, are still widely in use.)
 
+</br>
 
+The host application provides services which the plug-in can use, including a way for plug-ins to register themselves with the host application and a protocol for the exchange of data with plug-ins. Plug-ins depend on the services provided by the host application and do not usually work by themselves. Conversely, the host application operates independently of the plug-ins, making it possible for end-users to add and update plug-ins dynamically without needing to make changes to the host application.
 
