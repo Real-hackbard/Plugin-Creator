@@ -121,3 +121,19 @@ A browser plugin, often called an extension, interacts with the browser. Some ex
 
 Although plugins are still commonly used in computer programs and apps, their use in web browsers has reduced over the past few years. Plugins like Adobe Flash Player, which was once an important plugin for interactive elements like videos and games, have been replaced by HTML5, providing a superior user experience.
 
+</br>
+
+# Where are plugins used?
+Content management systems
+Most CMSs, including WordPress, Shopify, and Squarespace, offer users the possibility to work with plugins/extensions. Most CMSs also allow third parties to create plugins that alter a user’s website, which provides users with more choice and flexibility.
+
+The features added to the CMS using plugins can range from an easy method for adding a contact form to a website to plugins for page speed optimization. WordPress is one of the most popular CMSs that offers plugins by third-party developers. WordPress plugins can be either paid or free and add extra functionality to the main WordPress platform.
+
+### Browsers
+Although not used as often today, many browsers still support the use of browser extensions. These plugins can add additional features like ad-blocking or data scraping. They can also add simple features like showing whether links on a page are dofollow or nofollow.
+
+### Text editors
+Many text editors use plugins to provide support for certain programming languages. These plugins can make writing code easier and provide clearer formatting for different programming languages.
+
+### Editing software
+Software for editing videos and images commonly comes with plugins to provide improved compatibility for certain file types.
