@@ -144,6 +144,10 @@ Examples of plug-in use for various categories of applications:
 * [Digital audio workstations](https://en.wikipedia.org/wiki/Digital_audio_workstation) and audio editing software use audio plug-ins to generate, process or analyze sound. Ardour, Audacity, Cubase, FL Studio, Logic Pro X and Pro Tools are examples of such systems.
 * [Email clients](https://en.wikipedia.org/wiki/Email_client) use plug-ins to decrypt and encrypt email. Pretty Good Privacy is an example of such plug-ins.
 * [Video game console emulators](https://en.wikipedia.org/wiki/Video_game_console_emulator) often use plug-ins to modularize the separate subsystems of the devices they seek to emulate. For example, the PCSX2 emulator makes use of video, audio, optical, etc. plug-ins for those respective components of the PlayStation 2.
+* [Graphics software](https://en.wikipedia.org/wiki/Graphics_software) use plug-ins to support file formats and process images. A Photoshop plug-in may do this.
+* Broadcasting and live-streaming software, like [OBS Studio](https://en.wikipedia.org/wiki/OBS_Studio), as an open source software utilizes plug-ins for user-specific needs.
+* [Media players](https://en.wikipedia.org/wiki/Media_player_software) use plug-ins to support file formats and apply filters. foobar2000, GStreamer, Quintessential, VLC, Winamp, and XMMS are examples of such media players.
+* [Packet sniffers](https://en.wikipedia.org/wiki/Packet_analyzer) use plug-ins to decode packet formats. OmniPeek is an example of such packet sniffers.
 
 
 
