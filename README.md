@@ -148,6 +148,8 @@ Examples of plug-in use for various categories of applications:
 * Broadcasting and live-streaming software, like [OBS Studio](https://en.wikipedia.org/wiki/OBS_Studio), as an open source software utilizes plug-ins for user-specific needs.
 * [Media players](https://en.wikipedia.org/wiki/Media_player_software) use plug-ins to support file formats and apply filters. foobar2000, GStreamer, Quintessential, VLC, Winamp, and XMMS are examples of such media players.
 * [Packet sniffers](https://en.wikipedia.org/wiki/Packet_analyzer) use plug-ins to decode packet formats. OmniPeek is an example of such packet sniffers.
+* [Remote sensing applications](https://en.wikipedia.org/wiki/Remote_sensing_software) use plug-ins to process data from different sensor types; e.g., Opticks.
+* [Text editors](https://en.wikipedia.org/wiki/Text_editor) and integrated development environments use plug-ins to support programming languages or enhance the development process, e.g., Visual Studio, RAD Studio, Eclipse, IntelliJ IDEA, jEdit and MonoDevelop support plug-ins. Visual Studio itself can be plugged into other applications via Visual Studio Tools for Office and Visual Studio Tools for Applications.
 
 
 
