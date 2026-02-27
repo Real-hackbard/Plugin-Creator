@@ -124,7 +124,7 @@ Although plugins are still commonly used in computer programs and apps, their us
 </br>
 
 # Where are plugins used?
-Content management systems
+### Content management systems  
 Most CMSs, including WordPress, Shopify, and Squarespace, offer users the possibility to work with plugins/extensions. Most CMSs also allow third parties to create plugins that alter a user’s website, which provides users with more choice and flexibility.
 
 The features added to the CMS using plugins can range from an easy method for adding a contact form to a website to plugins for page speed optimization. WordPress is one of the most popular CMSs that offers plugins by third-party developers. WordPress plugins can be either paid or free and add extra functionality to the main WordPress platform.
