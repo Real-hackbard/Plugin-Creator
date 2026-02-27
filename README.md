@@ -140,3 +140,10 @@ Software for editing videos and images commonly comes with plugins to provide im
 
 # Examples
 Examples of plug-in use for various categories of applications:
+
+* [Digital audio workstations](https://en.wikipedia.org/wiki/Digital_audio_workstation) and audio editing software use audio plug-ins to generate, process or analyze sound. Ardour, Audacity, Cubase, FL Studio, Logic Pro X and Pro Tools are examples of such systems.
+* [Email clients](https://en.wikipedia.org/wiki/Email_client) use plug-ins to decrypt and encrypt email. Pretty Good Privacy is an example of such plug-ins.
+* [Video game console emulators](https://en.wikipedia.org/wiki/Video_game_console_emulator) often use plug-ins to modularize the separate subsystems of the devices they seek to emulate. For example, the PCSX2 emulator makes use of video, audio, optical, etc. plug-ins for those respective components of the PlayStation 2.
+
+
+
