@@ -16,6 +16,12 @@ Plugins can be created by the same publisher as the main software. It’s also c
 
 The word “extension” is also commonly used to refer to a plugin. Although given a different name, extensions work the same way as plugins, namely by adding functionality without altering the main program.
 
+
+# Instructions:
+
+
+
+
 # What are plugins used for?
 Plugins are used to add extra features to a web program without changing the main program. They are used on a range of programs, from CMSs to browsers.
 
