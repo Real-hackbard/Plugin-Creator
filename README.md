@@ -60,6 +60,56 @@ begin
 end;
 ```
 
+* After the driver is built, the PlugInDemo project starts.
+* Loading the plugin driver into the main program.
+
+```pascal
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  LoadPlugins();
+end;
+
+procedure TForm1.LoadPlugins;
+var
+  Path         : string;
+  PluginFile   : string;
+  sr           : TSearchRec;
+  lib          : THandle;
+  s            : string;
+  NewItem      : TMenuItem;
+  ItemCount    : Cardinal;
+begin
+  ItemCount := 0;
+  // Specify the name for certain drivers
+  Path := ExtractFilepath(ParamStr(0)) + PLUGIN_PATH + '\*.dll';
+  if FindFirst(Path, faAnyFile, sr) = 0 then
+  begin
+    repeat
+      PluginFile := ExtractFilepath(ParamStr(0)) + PLUGIN_PATH + '\' + sr.Name;
+      Lib := LoadLibrary(PChar(PluginFile));
+      if Lib <> 0 then
+      begin
+        // build menu item
+        @MenuCaption := GetProcAddress(Lib, 'MenuCaption');
+        SetLength(PluginArray, ItemCount + 1);
+        @PluginArray[ItemCount] := GetProcAddress(Lib, 'LoadPlugin');
+        if (Assigned(MenuCaption)) and (Assigned(PluginArray[ItemCount])) then
+        begin
+          NewItem := TMenuItem.Create(self);
+          SetLength(s, 1024);
+          SetLength(s, MenuCaption(PAnsiChar(s), 1024));
+          NewItem.Caption := PChar(s);
+          NewItem.Tag := ItemCount;
+          NewItem.OnClick := MenuOnClick;
+          mnuPlugins.Add(NewItem);
+          Inc(ItemCount);
+        end;
+      end;
+    until FindNext(sr) <> 0;
+  end;
+end;
+```
+
 </br>
 
 # What are plugins used for?
