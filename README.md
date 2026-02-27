@@ -12,5 +12,16 @@
 
 In computing, a plug-in (also spelled plugin), add-in (also addin, add-on, or addon) or extension is a [software component](https://en.wikipedia.org/wiki/Software_component) that extends the functionality of an existing software system without requiring the system to be [re-built](https://en.wikipedia.org/wiki/Software_build). A plug-in feature is one way that a system can be customizable.
 
+Plugins can be created by the same publisher as the main software. It’s also common to see third-party plugins developed by other companies or developers.
 
+The word “extension” is also commonly used to refer to a plugin. Although given a different name, extensions work the same way as plugins, namely by adding functionality without altering the main program.
+
+# What are plugins used for?
+Plugins are used to add extra features to a web program without changing the main program. They are used on a range of programs, from CMSs to browsers.
+
+A plugin can help improve the user experience and make it easier for users to make certain changes. For example, WordPress plugins make it easier to interact with the CMS. Users can easily alter the code and functionality of their website by downloading a plugin instead of writing the code themselves.
+
+A browser plugin, often called an extension, interacts with the browser. Some examples of browser plugins may be ad blockers that prevent you from seeing advertisements on websites, or overlays that provide you extra information.
+
+Although plugins are still commonly used in computer programs and apps, their use in web browsers has reduced over the past few years. Plugins like Adobe Flash Player, which was once an important plugin for interactive elements like videos and games, have been replaced by HTML5, providing a superior user experience.
 
