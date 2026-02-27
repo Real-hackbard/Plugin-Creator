@@ -16,12 +16,51 @@ Plugins can be created by the same publisher as the main software. It’s also c
 
 The word “extension” is also commonly used to refer to a plugin. Although given a different name, extensions work the same way as plugins, namely by adding functionality without altering the main program.
 
+</br>
 
 # Instructions:
 * First, start the ```Creator Project``` to build the driver for the main program.
 * The content of ```FormUnit.pas``` is the content that is started by the main program as a plugin.
+* Press ```Ctrl+F9``` or select ```Project > Compile``` from the menu to generate the driver. If the project is executed, this error message will appear, which can be ignored.
 
+</br>
 
+![Error](https://github.com/user-attachments/assets/f4c13e75-56d8-40a9-8713-324c5a692a63)
+
+</br>
+
+* PlugIn initialization..
+
+```pascal
+procedure TForm2.FormCreate(Sender: TObject);
+var
+  pc: PChar;
+resourcestring
+  rsNoModuleName = 'Could not determine module name';
+begin
+  GetMem(pc, MAX_PATH);
+  if Assigned(pc) then
+  try
+    ZeroMemory(pc, MAX_PATH);
+    GetModuleFileName(hInstance, pc, MAX_PATH);
+    Label2.Caption := ExtractFilename(string(pc));
+  finally
+    FreeMem(pc);
+  end
+  else
+    Label1.Caption := rsNoModuleName;
+end;
+
+procedure FormShowModal(Parent: Pointer); stdcall;
+begin
+  Form2 := TForm2.Create(nil);
+  if Assigned(Parent) then
+    Form2.SetParent(Parent);
+  Form2.ShowModal;
+end;
+```
+
+</br>
 
 # What are plugins used for?
 Plugins are used to add extra features to a web program without changing the main program. They are used on a range of programs, from CMSs to browsers.
