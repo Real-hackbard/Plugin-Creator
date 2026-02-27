@@ -18,7 +18,8 @@ The word “extension” is also commonly used to refer to a plugin. Although gi
 
 
 # Instructions:
-
+* First, start the ```Creator Project``` to build the driver for the main program.
+* The content of ```FormUnit.pas``` is the content that is started by the main program as a plugin.
 
 
 
