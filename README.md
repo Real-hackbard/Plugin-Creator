@@ -10,7 +10,7 @@
 
 </br>
 
-
+In computing, a plug-in (also spelled plugin), add-in (also addin, add-on, or addon) or extension is a [software component](https://en.wikipedia.org/wiki/Software_component) that extends the functionality of an existing software system without requiring the system to be [re-built](https://en.wikipedia.org/wiki/Software_build). A plug-in feature is one way that a system can be customizable.
 
 
 
