@@ -60,7 +60,7 @@ begin
 end;
 ```
 
-* After the driver is built, the PlugInDemo project starts.
+* After the driver is build, the PlugInDemo project starts.
 * Loading the plugin driver into the main program.
 
 ```pascal
