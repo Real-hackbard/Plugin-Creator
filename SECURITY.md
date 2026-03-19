@@ -8,6 +8,7 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: Plugin Creator |
+| 1.0.x   | :white_check_mark: Form DLL Creator |
 
 ## Reporting a Vulnerability
 
